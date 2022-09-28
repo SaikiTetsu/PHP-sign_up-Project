@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Sign Up Form</title>
+<link href="styles/base.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table border="0" align="center" width="800" cellpadding="0" cellspacing="0">
+<tr style="background-color:#0000A0">
+   <td ><img src="graphics/soccerball.gif" alt="logo" width="143" height="39"><div class="main_nav"><a href="index.php">Home</a> | <a href="map.php">Maps</a> | <a href="action.php">Action</a>    | <a href="teams.php">Teams</a> |
+       Online Signup |<a href="ash_admin/game_mgr"> Game Schedule</a> </div> </td></td>
+
+  </tr>
+<tr>
+   <td valign="top">
+      <form action="ash_admin/player_mgr/index.php" method="POST" >
+	    <input type="hidden" name="action" id="action" value="new_player" />
+       <table cellpadding="2" cellspacing="0" border="0" valign="top" width="100%" class="output_tables">
+         <caption align="top" style="background-color:#CCCCCC">Player Signup</caption>
+     <tr>
+       <td align="right">Player First Name</td>
+
+        <td><input type="text" name="pla_fname" size="20" maxlength="25" id="pla_fname"></td>
+     </tr>
+         <tr>
+           <td align="right">Player Last Name</td>
+         <td><input type="text" name="pla_lname" size="20" maxlength="25" id="pla_lname"></td>
+     </tr>
+         <tr>
+           <td align="right" width="50%">Player Birth Date (YYYY-MM-DD)</td>
+
+         <td><input type="text" name="pla_bdate" size="10" maxlength="10" id="pla_bdate"></td>
+     </tr>
+         <tr>
+           <td align="right">Player Street Address</td>
+         <td><input type="text" name="pla_add" size="20" maxlength="25" id="pla_add"></td>
+     </tr>
+         <tr>
+           <td align="right">Player City</td>
+
+         <td><input type="text" name="pla_city" size="20" maxlength="25" id="pla_city"></td>
+     </tr>
+         <tr>
+           <td align="right">Player State</td>
+         <td><input type="text" name="pla_state" size="5" maxlength="2" id="pla_state"></td>
+     </tr>
+         <tr>
+           <td align="right">Player Zip</td>
+
+         <td><input type="text" name="pla_zip" size="10" maxlength="10" id="pla_zip"></td>
+     </tr>
+         <tr>
+           <td align="right">Player Phone (with area code)</td>
+         <td><input type="text" name="pla_phone" size="20" maxlength="25" id="pla_phone"></td>
+     </tr>
+         <tr>
+           <td align="right">Parent First Name</td>
+
+         <td><input type="text" name="pla_par_fname" size="20" maxlength="25" id="pla_par_fname"></td>
+     </tr>
+         <tr>
+           <td align="right">Parent Last Name</td>
+         <td><input type="text" name="pla_par_lname" size="20" maxlength="25" id="pla_par_lname"></td>
+     </tr>
+         <tr>
+           <td align="right"><input name="submit" value="Signup" type="submit" id="submit"></td>
+
+         <td><input name="clear" value="Clear" type="reset" id="clear"></td>
+     </tr>
+        </table>
+     </form></td>
+  </tr>
+</table>
+</body>
+</html>

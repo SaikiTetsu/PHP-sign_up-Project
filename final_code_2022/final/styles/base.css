@@ -1,0 +1,92 @@
+/*this is the style sheet for the public web site for Ashland */
+body {
+font-family:Arial, Helvetica, sans-serif;
+background-color:#fff;
+color:#000;
+}
+/*style for table on index.php page of public site*/
+#openingpage{
+	margin:0 auto;
+	width:760px;
+	border:1px solid #000;
+	border-collapse:collapse;
+}
+#openingpage td{
+	padding:.1em;
+}
+#openingpage .colorit{
+	background-color:#0000A0;
+}
+h1{color:#990000}
+
+a {color:#000000; text-decoration:none }
+a:hover {color:blue; text-decoration:underline}
+.main_nav{
+   color:#FFFFFF;
+   float:right; 
+   padding-right:3px; 
+   font-size:1em;
+   padding-bottom:3px;
+  
+}
+.main_nav a{color:#FFFFFF; text-decoration:none;}
+.main_nav :hover{color:#CCCCCC; text-decoration:underline;}
+.credits{text-align:center; font-size:1em;}
+
+.output_tables{
+         font-size:1em;
+		 background-color:#CCCCCC;
+}
+#foot{
+	border-top: 1px solid #000;
+	padding:1em;
+	
+}
+/*styles for schedule  pages - public page*/
+#schedule_page{
+	margin:0 auto;
+	width:500px;
+	padding:.2em;
+	text-align:center;
+}
+#head{
+	height:80px;
+	/*background-color:#0000A0;*/
+	padding-top:.1em;
+	background:#0000A0 url(../graphics/soccerball.gif).5em center no-repeat;
+}
+#head h2{
+	color:#fff;
+	padding-left:2.5em;
+	
+}
+#team_links{
+	text-align:center;	
+}
+#team_links a{
+	color:#900;
+	font-weight:bold;
+}
+#team_links a:hover{
+	color:#090;
+}
+/*end styles for schedule menu page*/
+
+/*exclusive styles for display_schedule.php*/
+#sched_table{
+	width:100%;
+	border:1px solid #000;
+	border-collapse:collapse;
+	margin:0 auto .5em auto;
+	
+}
+#sched_table th{
+	font-size:1em;
+}
+#sched_table td{
+	border:1px solid #000;
+	font-size:1em;
+	padding:.5em;
+}
+/*end exclusive display_schedule.php styles*/
+
